@@ -1,0 +1,50 @@
+{
+  "_note": "Generic placeholder content for demonstration only. Not real course, fee or contact information.",
+  "entries": [
+    {
+      "intent": "greeting",
+      "patterns": ["hello", "hi there", "hey", "assalam o alaikum", "salam", "good morning"],
+      "answer": "Hello! Welcome to the demo assistant. Ask me about courses, schedules, fees or certificates."
+    },
+    {
+      "intent": "courses",
+      "patterns": ["what courses do you offer", "course list", "what do you teach", "courses available", "kya courses hain", "course batao"],
+      "answer": "(Demo) We offer an introductory technical analysis course and an Elliott Wave course. Ask for details on either."
+    },
+    {
+      "intent": "elliott_wave",
+      "patterns": ["what is elliott wave", "explain elliott wave theory", "how does elliott wave work", "elliott wave kya hai"],
+      "answer": "Elliott Wave theory describes market price action as repeating wave structures: five-wave impulses with the trend and three-wave corrections against it."
+    },
+    {
+      "intent": "fees",
+      "patterns": ["how much does the course cost", "what is the fee", "fee structure", "course ki fee kitni hai", "price of course"],
+      "answer": "(Demo) Fees depend on the course and batch. In a real deployment this intent hands the chat to a human advisor."
+    },
+    {
+      "intent": "schedule",
+      "patterns": ["how long is the course", "class timings", "how many classes per week", "course duration", "kitne din ka course hai"],
+      "answer": "(Demo) Course length and timings vary by batch. This answer is placeholder text."
+    },
+    {
+      "intent": "mode",
+      "patterns": ["online or onsite classes", "can i learn from home", "do you have online classes", "ghar se seekh sakta hun"],
+      "answer": "(Demo) Both online and onsite modes can be supported; the bot answers from whatever is configured in the FAQ file."
+    },
+    {
+      "intent": "beginner",
+      "patterns": ["can beginners join", "i have no trading experience", "is it for newbies", "main naya hun"],
+      "answer": "Beginner-friendly tracks start from the basics and build up step by step."
+    },
+    {
+      "intent": "certificate",
+      "patterns": ["do you provide a certificate", "is the course certified", "how to verify certificate"],
+      "answer": "(Demo) Certificates are issued on completion. This is placeholder text."
+    },
+    {
+      "intent": "profit_disclaimer",
+      "patterns": ["will i make money after this course", "is trading profitable", "how much will i earn", "kamai hogi"],
+      "answer": "Trading is a skill with real risk. No outcome is guaranteed, and results depend on practice and discipline."
+    }
+  ]
+}
